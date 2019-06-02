@@ -11,18 +11,23 @@ All letters will be lowercase and all inputs will be valid.
 """
 import string
 
+def get_word_count(collection):
+    for word in collection:
+        count = 0
+        for letter in word:
+            count += int(string.ascii_lowercase.index(letter)) + 1
+        yield {'word':word,'count':count}
+
 def execute(x):
     col = x.split(' ')
     d = {}
-    
-    for word in col:
-        d[word] = 0
-        for letter in word:
-            d[word] += int(string.ascii_lowercase.index(letter)) + 1
+    gen = get_word_count(col)
     r = ''
     count = 0
-    for word,cnt in d.items():
-        if cnt > count:
-            r = word
-            count = cnt
-    return r 
+    for wordcnt in gen:
+        if wordcnt['count'] > count:
+            r = wordcnt['word']
+            count = wordcnt['count']
+    return r
+
+
