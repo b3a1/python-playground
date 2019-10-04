@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 You are asked to square every digit of a number.
 

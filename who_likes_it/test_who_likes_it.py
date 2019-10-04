@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import unittest
 import main as who_likes_it
 

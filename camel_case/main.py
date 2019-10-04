@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 All words must have their first letter capitalized without spaces.
 For instance:

@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 In DNA strings, symbols "A" and "T" are complements of 
 each other, as "C" and "G". You have function with one 

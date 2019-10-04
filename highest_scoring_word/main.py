@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Given a string of words, you need to find the highest scoring word.
 

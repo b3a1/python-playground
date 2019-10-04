@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import unittest
 import main as alphabet_position
 from random import randint

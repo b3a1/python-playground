@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 An isogram is a word that has no repeating letters, 
 consecutive or non-consecutive. Implement a function 

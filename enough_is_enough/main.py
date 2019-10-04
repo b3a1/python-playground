@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def delete_nth(order,max_e):
     l = []
     for n in order:

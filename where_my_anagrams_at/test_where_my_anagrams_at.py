@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import unittest
 import main as where_my_anagrams_at
 

@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 In this simple Kata your task is to create a function that 
 turns a string into a Mexican Wave. 
